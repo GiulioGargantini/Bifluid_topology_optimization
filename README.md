@@ -10,9 +10,15 @@ The three folders of this repository contain each the Python code of one chapter
 The text of the thesis can be found at the web page: https://www.politesi.polimi.it .
 
 ## Requirements for the execution of the code
+The code collected in this repository requires a few external components for its execution:
+- *dolfin-adjoint*, an extension of the *FEniCS* project, available at http://www.dolfin-adjoint.org/en/latest/download/index.html
+- *IPOpt*, an optimization solver that can be downloaded at https://projects.coin-or.org/Ipopt
+- The *HSL* library for *IPOpt*, available at http://www.hsl.rl.ac.uk/ipopt/
+
+Be sure to compile *IPOpt* against the *HSL* library.
 
 ## Concise bibliography
 - [1]:G. Marck, M. Nemer, and J.-L. Harion. “Topology Optimization of Heat and Mass Transfer Problems: Laminar Flow”. In: Numerical Heat Transfer, Part B: Fundamentals 63.6 (2013), pp. 508–539.
 - [2]: V. Subramaniam, T. Dbouk, and J.-L. Harion. “Topology optimization of conjugate heat transfer systems: A competition between heat transfer enhancement and pressure drop reduction”. In: International Journal of Heat and Fluid Flow 75 (2019), pp. 165–184
 - [3]:. H. Haertel, K. Engelbrecht, B. S. Lazarov, and O. Sigmund. “Topology optimization of a pseudo 3D thermofluid heat sink model”. In: International Journal of Heat and Mass Transfer 121 (2018), pp. 1073–1088. issn: 0017-9310. doi: https : / / doi . org / 10 . 1016 / j . ijheatmasstransfer . 2018 . 01 . 078. url: http : / / www . sciencedirect . com / science / article / pii / S0017931017337146 .
-- [4]: R. Tawk. “Topology optimization of heat and mass transfer in bi-fluid lam- inar flow : application to heat exchangers”. PhD thesis. PSL Research Uni- versity, June 2018. url: https://pastel.archives- ouvertes.fr/tel-02274990 .
+- [4]: R. Tawk. “Topology optimization of heat and mass transfer in bi-fluid laminar flow : application to heat exchangers”. PhD thesis. PSL Research Uni- versity, June 2018. url: https://pastel.archives- ouvertes.fr/tel-02274990 .
