@@ -7,7 +7,7 @@ The three folders of this repository contain each the Python code of one chapter
 - **CH4\_Dimensional\_Reduction\_of\_a\_Heatsink** gathers the code to simulate and optimize a 2D reduced model of a tridimensional heatsink, as presented in [3] and in Ch. 4 of the thesis;
 - **CH5\_Bifluid\_Optimization** contains two simulation of bi-fluid scenarios, as discussed in Ch. 5 of the thesis and in [4].
 
-The text of the thesis can be found at the web page: https://www.politesi.polimi.it .
+The text of the thesis can be found at the web page: https://www.politesi.polimi.it/handle/10589/165546 .
 
 ## Requirements for the execution of the code
 The code collected in this repository requires a few external components for its execution:
